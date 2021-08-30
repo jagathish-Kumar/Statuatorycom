@@ -1,4 +1,4 @@
-.App4 {
+#App4 {
   text-align: center;
   }
   .container1
@@ -7,11 +7,11 @@
   }
   #App2
   {
-  margin-left:-670px;
+  margin-left:30%;
   }
   .App3
   {
-  margin-left:-670px;
+  margin-left:30%;
   }
   #samplecalc
   {
@@ -25,7 +25,7 @@
 
 #toggbut 
 {
-  padding-left:1100px;
+  padding-left:100px;
   
 }
 #para1

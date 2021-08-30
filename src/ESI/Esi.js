@@ -12,11 +12,12 @@ toggle ? setToggle(false):setToggle(true);
 }
 return (
   
-      <div id="toggbut">
-      <Switch data-bs-toggle="tooltip" data-bs-placement="top" title="Enable ESI" onClick={toggler}/>
+      <div className="container">
+      <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" data-bs-toggle="tooltip" data-bs-placement="top" title="Enable ESI" style={{width:'45px',height:'25px',marginLeft:'83%',marginTop:"1%"}} onClick={toggler}/>
       {toggle ? <Esienafu/> : <Esidisfu/> }
       </div>
-      
+      </div>
 );
 }
 export default Esi;

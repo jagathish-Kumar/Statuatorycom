@@ -10,8 +10,8 @@ const Viewdet = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div id="viewdet">
-      <Button color="white" onClick={toggle} style={{ marginBottom: '1rem', color:'#0066ff'}}>View Details</Button>
+    <div class="container">
+      <Button color="white" onClick={toggle} style={{ marginBottom: '1rem', color:'#0066ff',marginLeft:"27%"}}>View Details</Button>
       <Collapse isOpen={isOpen}>
         <Card>
           <CardBody id="samplecalc1">

@@ -45,14 +45,15 @@ return(
 <Sampcalc/>
 <br/>
 <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="empcont1"/>
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
   <label class="form-check-label" for="defaultCheck1">
-    Include employer's contribution in the CTC
+   Include employer's contribution in the CTC
   </label>
 </div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="ovecont1"/>
-  <label class="form-check-label" for="defaultCheck1">
+
+<div class="form-check form-check-inline" >
+  <input class="form-check-input" type="checkbox" value="" id="inlineCheckbox1"/>
+  <label class="form-check-label" for="inlineCheckbox1">
     Override PF contribution rate at employee level
   </label>
 </div>

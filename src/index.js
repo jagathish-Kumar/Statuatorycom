@@ -18,14 +18,11 @@ import Ptdisfu from './PT/Ptdisfu';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Epf />
+    <Epf/>
     <Esi />
     <Pt/>
     <Ptdisfu/>
-    <div style={{marginLeft:'430px'}}>
     <Viewdet/>
-    </div>
-    <br/>
     <Last/>
     <ReactTooltip id="toolTip1"/>
   </React.StrictMode>,
