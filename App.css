@@ -1,0 +1,77 @@
+.App4 {
+  text-align: center;
+  }
+  .container1
+  {
+  background-color:azure;
+  }
+  #App2
+  {
+  margin-left:-670px;
+  }
+  .App3
+  {
+  margin-left:-670px;
+  }
+  #samplecalc
+  {
+  background-color: #FAECEA;
+  }
+
+  #samplecalc1
+  {
+  background-color: #F6F3F3;
+  }
+
+#toggbut 
+{
+  padding-left:1100px;
+  
+}
+#para1
+{
+margin-left:375px;
+}
+#para11
+{
+margin-left:430px;
+}
+#para2
+{
+margin-left:-712px;
+}
+#parasize
+{
+font-size:15px;
+}
+#paraepf1
+{
+margin-left:-660px;
+}
+#epfmain
+{
+margin-left:-660px;
+}
+#epfmain1
+{
+margin-right:400px;
+}
+#table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+th
+{
+height:70px;
+}
+th{
+  text-align:right;
+}
+#enable
+{
+color: green;
+}
+
+
+
