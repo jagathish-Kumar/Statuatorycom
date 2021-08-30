@@ -37,7 +37,7 @@ const Viewdet = () => {
   <br/>
 
   <button type="button" class="btn btn-link"> <i className="fa fa-check"> Save</i></button>
-<button type="button" class="btn btn-link"> <i className="fa fa-times"> Cancel</i></button>
+<button type="button" class="btn btn-link"  onClick={toggle}> <i className="fa fa-times"> Cancel</i></button>
 
           </CardBody>
         </Card>
